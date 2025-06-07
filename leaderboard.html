@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mental Wellness Leaderboard</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f4f4f4;
+            margin: 0;
+            padding: 20px;
+            text-align: center;
+        }
+        .container {
+            max-width: 600px;
+            margin: auto;
+            background: white;
+            padding: 20px;
+            border-radius: 10px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        }
+        h1 {
+            font-size: 24px;
+        }
+        .leaderboard {
+            margin-bottom: 20px;
+        }
+        .leaderboard div {
+            display: flex;
+            justify-content: space-between;
+            padding: 10px;
+            border-bottom: 1px solid #ddd;
+            align-items: center;
+        }
+        .trophy {
+            color: gold;
+            font-size: 20px;
+            margin-right: 10px;
+        }
+        .table-container {
+            margin-bottom: 20px;
+        }
+        table {
+            width: 100%;
+            border-collapse: collapse;
+        }
+        th, td {
+            padding: 10px;
+            border: 1px solid #ddd;
+            text-align: left;
+        }
+        th {
+            background-color: #f8f8f8;
+        }
+        .start-btn {
+            background-color: #28a745;
+            color: white;
+            padding: 10px 20px;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+            font-size: 16px;
+        }
+        .start-btn:hover {
+            background-color: #218838;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+       
+        
+        <div class="leaderboard">
+            <h2>Score Board</h2>
+            
+            <div><span class="trophy">🏆</span><span>Charlie</span> <span>90 pts - Seeker</span></div>
+            <div><span class="trophy">🏆</span><span>Dylan</span> <span>70 pts - Seeker</span></div>
+        </div>
+        
+        <div class="table-container">
+         <br>
+            <table>
+                <tr>
+                    <th>Activity</th>
+                    <th>Score</th>
+                </tr>
+                <tr>
+                    <td>Meditation (10 min)</td>
+                    <td>+10</td>
+                </tr>
+                <tr>
+                    <td>Journaling</td>
+                    <td>+15</td>
+                </tr>
+                <tr>
+                    <td>Gratitude Practice</td>
+                    <td>+20</td>
+                </tr>
+                <tr>
+                    <td>Yoga (30 min)</td>
+                    <td>+25</td>
+                </tr>
+                <tr>
+                    <td>Reading Self-Help Books</td>
+                    <td>+30</td>
+                </tr>
+                <tr>
+                    <td>Breathing Exercises (5 min)</td>
+                    <td>+10</td>
+                </tr>
+                <tr>
+                    <td>Helping Others</td>
+                    <td>+40</td>
+                </tr>
+                <tr>
+                    <td>Listening to Calming Music</td>
+                    <td>+15</td>
+                </tr>
+            </table>
+        </div>
+        
+        <button class="start-btn">Start Now</button>
+    </div>
+</body>
+</html>
